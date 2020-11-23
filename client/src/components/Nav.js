@@ -7,9 +7,9 @@ export class Nav extends Component {
             <nav className="header">
                 <div className="nav-bar">
                     <Link to="/" className="tab">Home</Link>
-                    <div className="tab">About</div>
-                    <div className="tab">Contact</div>
-                    <div className="tab">Portfolio</div>
+                    <Link to="/about" className="tab">About</Link>
+                    <Link to="/portfolio" className="tab">Portfolio</Link>
+                    <Link to="/contact" className="tab">Contact</Link>
                 </div>
                 
             </nav>
