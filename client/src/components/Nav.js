@@ -6,6 +6,7 @@ export class Nav extends Component {
         return(
             <nav className="header">
                 <div className="nav-bar">
+                    <div className="tab-title">Amy Westcott </div>
                     <Link to="/" className="tab">Home</Link>
                     <Link to="/about" className="tab">About</Link>
                     <Link to="/portfolio" className="tab">Portfolio</Link>
