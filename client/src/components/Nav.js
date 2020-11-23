@@ -4,11 +4,12 @@ import { Link } from 'react-router-dom';
 export class Nav extends Component {
      render() {
         return(
-            <nav className="indigo lighten-3">
-                <div className="container">
-                    <Link to="/" className="brand-logo">Home</Link>
-                    <ul id="nav-mobile" className="right hide-on-med-and-down">
-                    </ul>
+            <nav className="header">
+                <div className="nav-bar">
+                    <Link to="/" className="tab">Home</Link>
+                    <div className="tab">About</div>
+                    <div className="tab">Contact</div>
+                    <div className="tab">Portfolio</div>
                 </div>
                 
             </nav>

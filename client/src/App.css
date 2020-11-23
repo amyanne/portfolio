@@ -36,3 +36,27 @@
     transform: rotate(360deg);
   }
 }
+
+body {background-color: #EFE5DC;}
+
+.header {
+  padding: 35px;
+  text-align: center;
+  background: #D0B8AC;
+  font-size: 35px;
+}
+
+.tab {
+  font-family: Snell Roundhand, cursive;
+  font-weight: 600;
+  text-decoration: none;
+  text-decoration: none;
+  color:  #FBFEFB;
+  display: inline-block; 
+  padding: 20px;
+}
+
+.page {
+  color:  #7A7A7A;
+  font-family: 'Corben', Georgia, Times, serif;
+}
