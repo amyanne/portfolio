@@ -37,54 +37,47 @@
   }
 }
 
-body {background-color: #EFE5DC;}
+body {background-color: #E0E0E0;}
 
 .header {
-  padding: 10px;
-  color:  #FBFEFB;
-  background: #D0B8AC;
-  font-size: 35px;
-  box-shadow: 0 2px 4px 0 rgba(167,121,98, 0.8);
-
-  
+  padding: 10px 20px;
+  text-align: center;
+  font-size: 22px;
 }
 
-.tab-title {
-  font-family: Arial, Helvetica, sans-serif; 
-  font-weight: 600;
-  text-decoration: none;
-  text-decoration: none;
-  color:  #7A7A7A;;
-  display: inline-block; 
-  padding: 40px;
-  text-align: left;
-
-}
 .tab {
   font-family: Snell Roundhand, cursive;
   font-weight: 600;
+  font-size: 25px;
   text-decoration: none;
   text-decoration: none;
-  color:  #FBFEFB;
+  color:  black;
   display: inline-block; 
   padding: 40px;
-  text-align: right;
 }
 
-.page {
-  color:  #7A7A7A;
-  background-color: #b7b7a4;
+.page-home {
+  color:  #171114;
+  width: 30%;;
+  float: left;
+  padding: 30px 30px;
+  margin-top: 5px;
+  margin-right: 180x;
+  margin-left: 180px;
+  display: block;
+  line-height: 2;
+  font-family:  "Palatino Linotype", "Book Antiqua", Palatino, serif;
+  
 }
 
 .page-about {
   color:  #7A7A7A;
-  background-color: #b7b7a4;
   width: 40%;
   box-shadow: 0 4px 8px 0 rgba(109,109,98, 0.8);
   padding: 30px 0px;
   margin-top: 30px;
   margin-right: 80x;
   margin-left: 80px;
-  float: left;
+  float: right;
 
 }
