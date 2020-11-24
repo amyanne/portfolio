@@ -44,7 +44,11 @@ body {background-color: #E0E0E0;}
   text-align: center;
   font-size: 22px;
 }
+.projects {
+  font-family:  "Palatino Linotype", "Book Antiqua", Palatino, serif;
+  padding: 40px;
 
+}
 .tab {
   font-family: Snell Roundhand, cursive;
   font-weight: 600;
@@ -59,25 +63,28 @@ body {background-color: #E0E0E0;}
 .page-home {
   color:  #171114;
   width: 30%;;
-  float: left;
+  float: center;
   padding: 30px 30px;
-  margin-top: 5px;
-  margin-right: 180x;
-  margin-left: 180px;
+  /* margin-top: 5px;
+  margin-right: 2000x;
+  margin-left: 180px; */
   display: block;
   line-height: 2;
   font-family:  "Palatino Linotype", "Book Antiqua", Palatino, serif;
   
 }
 
-.page-about {
-  color:  #7A7A7A;
-  width: 40%;
-  box-shadow: 0 4px 8px 0 rgba(109,109,98, 0.8);
-  padding: 30px 0px;
-  margin-top: 30px;
-  margin-right: 80x;
-  margin-left: 80px;
-  float: right;
+.page-contact {
+  color: black;
+  font-family:  "Palatino Linotype", "Book Antiqua", Palatino, serif;
 
 }
+ .pic {
+  padding: 30px 15px;
+  margin-right: 15px;
+  margin-top: 5px;
+  width: 30%;
+  height: 30%;
+  border-radius: 50%;
+  overflow: hidden;
+ }

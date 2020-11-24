@@ -13,7 +13,7 @@ export class Project extends Component {
     render() {
         const projects = this.props.projects.map((element, i) => {
             return (
-                <div key={i} className="finished-colomn">
+                <div key={i} className="projects">
         <h3>{element.name}</h3>
                  <ReactPlayer
                     url={element.url}/>
