@@ -1,17 +1,19 @@
 import React, { Component } from 'react'
 import { connect } from 'react-redux';
+import { getProjects } from '../actions/index';
 
 
 export class Project extends Component {
     componentDidMount() {
-        // const id = this.props.match.params.id;
-        // this.props.getHabit(id);
+        this.props.getProjects();
     }
 
   render() {
+    console.log("getting hit")
+    console.log(this.props)
     return (
       <div>
-        {/* <h3>{ this.props.habit.name }</h3> */}
+        { <h3>{ "hi"}</h3> }
       </div>
     )
   }
@@ -19,9 +21,10 @@ export class Project extends Component {
 
 const mapStateToProps = state => {
     return {
-        // habit: state.habitsReducer.habit
+        projects: state.projectReducer.projects
     }
 }
 
-// export default connect(mapStateToProps, {getHabit})(HabitShow);
-export default Project 
+  
+
+export default connect(mapStateToProps, { getProjects })(Project);
