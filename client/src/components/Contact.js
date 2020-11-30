@@ -7,6 +7,7 @@ export class Contact extends Component {
         return(
             <div className="page-contact">
                 <h1>Let's Talk!</h1>
+                <h2 className="details">amywestcott01@gmail.com</h2>
                 
             </div>
         )
