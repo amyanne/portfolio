@@ -1,9 +1,16 @@
 
 const initialState = {
-    projects: []
+    projects: [],
+    project: {}
 }
 const projectReducer = (state = initialState, action) => {
     switch(action.type) {
+
+        case "GET_PROJECT":
+            return {
+                ...state, project: action.project
+                
+            }
         
         
         case "GET_PROJECTS":

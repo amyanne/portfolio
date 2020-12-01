@@ -1,9 +1,16 @@
 class ProjectsController < ApplicationController
 
+    before_action :set_project
+
+
     def index
         @projects = Project.all
         render json: @projects
     end 
+
+    def show
+        render json: @project
+    end
 
     def create
 
@@ -15,6 +22,10 @@ class ProjectsController < ApplicationController
     end 
 
     private
+
+    def set_project
+        @project = Project.find_by_id(params[:id])
+    end
 
     def project_params
         params.permit(:url)

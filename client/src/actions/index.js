@@ -10,3 +10,12 @@ export const getProjects = () => {
         })
     }
 }
+
+export const getProject = id => {
+    return dispatch => {
+        return fetch(baseUrl + '/projects/' + id)
+        .then(response => response.json())
+        .then(project => {
+            return dispatch({type: "GET_PROJECT", project})})
+    }
+}
