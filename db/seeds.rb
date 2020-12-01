@@ -7,5 +7,6 @@
 #   Character.create(name: 'Luke', movie: movies.first)
 
 
-projects = Project.create([{name: "Cat Rescue App", url: "https://www.youtube.com/watch?v=PhGxs7tyh1I&t=3s"}, 
-{name: "Habit Tracker", url: "https://www.youtube.com/watch?v=TGWOOFh3SRA"}, {name: "Climbing Log", url: "https://www.youtube.com/watch?v=HJITFSuD_r8&t=1s"}])
+projects = Project.create([{name: "Cat Rescue App", url: "https://www.youtube.com/watch?v=PhGxs7tyh1I&t=3s", git_url:"https://github.com/amyanne/cat-api", details: "temp"}, 
+{name: "Habit Tracker", url: "https://www.youtube.com/watch?v=TGWOOFh3SRA", git_url:"https://github.com/amyanne/habit-trackerrK", details: "temp"}, 
+{name: "Climbing Log", url: "https://www.youtube.com/watch?v=HJITFSuD_r8&t=1s", git_url:"https://github.com/amyanne/climb", details: "temp"}])
