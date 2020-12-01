@@ -13,8 +13,9 @@ export class ProjectShow extends Component {
       console.log(this.props.project.url)
     return (
       <div>
-        { <h3>{ this.props.project.name }</h3> }
-        <ReactPlayer url={this.props.project.url}/>
+        { <h1>{ this.props.project.name }</h1> }
+            <   ReactPlayer url={this.props.project.url}/>
+            <h3> {this.props.project.details}</h3>
         
       </div>
     )
