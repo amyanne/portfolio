@@ -1,7 +1,7 @@
 import React, { Component } from 'react'
 import { connect } from 'react-redux';
 import { getProjects } from '../actions/index';
-import ReactPlayer from "react-player"
+import ProjectItem from '../components/ProjectItem';
 
 
 
@@ -11,15 +11,17 @@ export class Project extends Component {
     }
 
     render() {
-        const projects = this.props.projects.map((element, i) => {
-            return (
-                <div key={i} className="projects">
-        <h3>{element.name}</h3>
-                 <ReactPlayer
-                    url={element.url}/>
-                </div>
-              );
-            });
+        const projects = this.props.projects.map((project, i) => <ProjectItem key={i} project={project} />)
+
+        // const projects = this.props.projects.map((element, i) => {
+        //     return (
+        //         <div key={i} className="projects">
+        // <h3>{element.name}</h3>
+        //          <ReactPlayer
+        //             url={element.url}/>
+        //         </div>
+        //       );
+        //     });
         return (
             <div>
                 <h2>Projects</h2>
